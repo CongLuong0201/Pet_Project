@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-header{
+  height: auto;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+}
+.main-header-logo{
+  width: 30%;
+  height: auto;
+
+}
+
+.main-header-logo-image{
+  height: auto;
+  width: 10vw;
+}
+.main-header-logo-name {
+  font-size: 2vw;
+  font-family: 'Nunitor', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 3.5vw;
+  
+}
+.main-header-logo-href{
+  text-decoration: none;
+}
+
+.main-header-menu{
+  width: 70%;
+  height: auto;
+}
+
+.main-header-menu-list {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: 4vw;
+  left: 40vw;
+}
+
+.main-header-manu-list-nav {
+  margin-right: 5vw;
+  font-size: 1.5vw;
+  font-family: 'Nunitor', sans-serif;
+  font-weight: 600;
+}
+.main-header-manu-list-nav-btn {
+  font-size: 1.5vw;
+  font-family: 'Nunitor', sans-serif;
+  font-weight: 600;
+  width: 10vw;
+  height: 3.5vw;
+  margin-top: -3vw;
+}
+.main-content{
+  height: auto;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  
+}
+.main-content-title{
+
+
+}
+.main-content-title-nameservice{
+  font-family: 'Nunitor', sans-serif;
+  font-size: 5vw;
+}
+
+.main-content-title-h1 h4{
+  font-weight: normal;
+}
+
+.main-content-title-img_h3{
+  display: flex;
+}
+
+.main-content-title-img{
+  height: 80px;
+  width: 80px;
+}
+ 
